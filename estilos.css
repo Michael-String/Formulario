@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+.form_container{ 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+
+.form{
+    width: 450px;
+    height: 450px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    padding: 40px;
+
+}
+
+.form_input{
+    margin-bottom: 30px;
+}
